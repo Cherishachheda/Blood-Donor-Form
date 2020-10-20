@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: rgb(203, 240, 247);">
+ 
+<h1 style= "color: rgb(255, 86, 86);background-color:ivory; text-align:center;"><b>BLOOD DONATION CAMP</b></h1>
+<img src= "download bdc.png" width="500" height="300"; style= "float: right;">
+<img src= "blood d.jpg" width="500" height="300"; style= "float:initial;">
+<h2 style="background-color:rosybrown;text-align:center; "><i>Donars Form</i></h2>
+  <p style="font-size:100%"><b> NAME</b> </p>
+
+  
+<form>
+ <input type="text" id=fname name="firstname" placeholder="Name"> <br> <br>
+ <input type="text" id=lname name="lastname" placeholder="LastName"> <br> <br>
+</form>
+
+<h3 style= "font-size:100%">GENDER </h3>
+
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="other" name="gender" value="Other">
+  <label for="other">Other</label><br><br>
+  <label for="birthday"><b>Birthday:</b></label> 
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <br>
+  <label for="email"><b>Enter your email:</b></label>
+  <input type="email" id="email" name="email"> 
+
+</form>
+<br><br>
+<h4 style= "font-size:100%">MOBILE NUMBER </h4>
+<form>
+  <input type="text" id="number" name="Number" placeholder="Number"> <br>
+  </form>
+<br>
+  <h5 style= "font-size:100%">ADDRESS</h5>
+  <textarea name="address" row="100" cols="50"></textarea>
+  <br><br>
+  <label for="city"><b>City:</b></label>
+  <select id="city" name="city">
+    <option value="mumbai">Mumbai</option>
+    <option value="navimumbai">Navi Mumbai</option>
+    <option value="pune">Pune</option>
+    
+  </select>
+<br><br><br>
+
+  <label for= "blood group"><b>Blood Group:</b></label>
+  <select id="blood group" name="blood group">
+    <option value="A+">A+</option>
+    <option value="A-">A-</option>
+    <option value="B+">B+</option>
+    <option value="B-">B-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+    <option value="O+">O+</option>
+    <option value="O-">O-</option>
+  </select>
+  <br> <br><br>
+    <label for="history"><b>Medical History</b></label><br><br>
+    <input type="checkbox" id="disease" name="disease" value="Typhiod">
+    <label for="Typhiod">Typhiod</label><br>
+    <input type="checkbox" id="disease" name="disease" value="Malaria">
+    <label for="malaria">Malaria</label><br>
+    <input type="checkbox" id="disease" name="disease" value="Diabetes">
+    <label for="disease">Diabetes</label> <br> <br>
+     <input type= "submit" value="submit">
+     <br> <br>
+     <input type="button" onclick="alert('YOU IS BRAVE TO DONATE PLATELETS')" value="Click ME!">
+  
+
+
+    
+
+
+
+</body>
+</html>
